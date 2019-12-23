@@ -9,13 +9,13 @@ As Sessões são compostas por *"n"* Janelas, e as janelas são compostas e *"n"
 : <C-b>shift% 
 ```
 
-> Dividir a tela na horizontal
+**Dividir a tela na horizontal**
 
 ```tmux
 : <C-b>"
 ```
 
-> Navegação entre telas || windows || janelas.
+**Navegação entre telas || windows || janelas.**
 
 ```tmux
 : <C-b>'seta_a_esquerda'
@@ -24,48 +24,28 @@ As Sessões são compostas por *"n"* Janelas, e as janelas são compostas e *"n"
 : <C-b>'seta_baixo'
 ```
 
-> Rotacionar as telas
+**Rotacionar as telas**
 
 ```tmux
 : <C-b><C-o>
 ```
 
-
-> Listar as janelas de uma sessão
-
-```tmux
-: <C-b>s
-```
-
-> Navegando entre as janelas de uma sessão
-
-
-```tmux
-: <C-b>( 
-
-```
-
-ou
-
-```tmux
-
-```
-
-> Maximizando um janela, dando um zoom na tela, transformando de visão multipla para visão única.
+**Maximizando um painel, transformando de visão multipla para visão única.**
 
 ```tmux
 : <C-b>+z
 ```
 
-> Adicionar um nova janela
+**Layouts dos Paineis**
+ 
+Pode se configurar os paineis para quando o tmux iniciar, ele carregar um configuração padrão personalizada do gosto do usuário. 
 
-```tmux
-: <C-b>+c
-```
+* *even-horizontal*, empilha todos os paineis horizontalmente, da esquerda para a direita. 
+* *even-vertial*, empilha todos os paineis verticalmente, de cima para baixo.
+* *main-horizontal*, cria um painel superior maior, e dois paineis inferiores menores.
+* *main-vertical*, cria um painel grande do lado esquerdo da tela e emplilha os restantes dos paineis verticalmente a direita.
 
-> Navegar entre as janelas
+Pode percorre esse paineis usando o comando ```<C-b>barra-de-espaço```
 
-```tmux
-: <C-b> <numero_da_janela>
-```
+Pode se encerra todo processo no painel como também no tmux digitando ```<C-b>x```
 

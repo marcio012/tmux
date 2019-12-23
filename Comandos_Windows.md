@@ -32,9 +32,9 @@ Por padrão cada janela tem um index gerado pelo tmux, isso permite navegar por 
 ```tmux
 : <C-b>0
 ```
-Se houver mais de nove janealas pode se fazer uso do ```tmux <C-b>w```.
+Se houver mais de nove janealas pode se fazer uso do ```<C-b>w```.
 
-Para buscar um janela pode se fazer uso do ```tmux <C-b>f```, ele aceita uma string como parametro. 
+Para buscar um janela pode se fazer uso do ```<C-b>f```, ele aceita uma string como parametro. 
 
 Para fechar uma janela pode usar o comando.
 
