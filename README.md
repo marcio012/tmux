@@ -25,3 +25,11 @@ $ <C-b> : 'novo comando'
 $ <C-b> !
 ```
 
+> Obs: O comando digitado a cima é o default do tmux, manterei esse padrão.
+
+
+## Sumário: 
+
+1. [Sessões](./Comandos_Session.md)
+2. [Janelas](./Comandos_Windows.md)
+3. [Paineis](./Comandos_Panel.md)

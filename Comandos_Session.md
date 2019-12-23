@@ -26,7 +26,7 @@ Criar um sessão e em background
 $ tmux new -s "nome-da-sessão" -d
 ```
 
-A flag **"-d"** passa para o tmux para criar a sessão desatachada do terminal, no caso em background.
+A flag *"-d"* passa para o tmux para criar a sessão desatachada do terminal, no caso em background.
 
 **Fechar a sessão**
 
@@ -34,7 +34,7 @@ A flag **"-d"** passa para o tmux para criar a sessão desatachada do terminal, 
 $ tmux kill-session -t basic
 ```
 
-Ou se houver mais de uma sessão.
+Ou se houver mais de uma sessão. Tem que ser removida digitando o nome da sessão.
 
 ```bash
 $ tmux kill-session -t "nome_da_sessão"
