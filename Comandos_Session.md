@@ -1,12 +1,12 @@
 # Estudo sobe a ferramenta TMUX - Interação com as Sessões.
 
-> Criar um sessão:
+*Criar um sessão:*
 
 ```bash
 $ tmux
 ```
 
-> Criar uma sessão com nomeada: 
+*Criar uma sessão com nomeada:* 
 
 ```bash
 $ tmux new-session -s 'nome-da-sessão'
