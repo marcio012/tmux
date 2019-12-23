@@ -1,58 +1,47 @@
 # Estudo sobe a ferramenta TMUX - Interação com as Janelas.
 
+As Sessões são compostas por n Janelas, sendo o segundo nível. 
+
 ### Comandos de Tela ou Window
 
-> Criando um sessão nomeada:
+**Criando um sessão nomeada:**
 
 ```tmux
 $ Tmux new -s 'sessão' -n 'nome_da_janela'
 ```
 
-> Dividir a tela na vertical:
+Passando a flag **"-n"** no comando identifica que está nomeando a sessão.
+Dentro do tmux você pode definir um nome passando o comando.
 
 ```tmux
-: <C-b>+shift+% 
+: <C-b>,
 ```
 
-> Dividir a tela na horizontal
+**Movendo entre as janelas:**
+
+Para próxima janela: 
+```tmux
+: <C-b>n
+```
+
+Para janela anterior: 
+```tmux
+: <C-b>p
+```
+Por padrão cada janela tem um index gerado pelo tmux, isso permite navegar por esse index.
+```tmux
+: <C-b>0
+```
+Se houver mais de nove janealas pode se fazer uso do ```tmux <C-b>w```.
+
+Para buscar um janela pode se fazer uso do ```tmux <C-b>f```, ele aceita uma string como parametro. 
+
+Para fechar uma janela pode usar o comando.
 
 ```tmux
-: <C-b>+"
+: <C-b>&
 ```
-
-> Navegação entre telas || windows || janelas.
-
-```tmux
-: <C-b>+'seta_a_esquerda'
-: <C-b>+'seta_a_direita'
-: <C-b>+'seta_cima'
-: <C-b>+'seta_baixo'
-```
-
-> Rotacionar as telas
-
-```tmux
-: <C-b><C-o>
-```
-
-
-> Listar as janelas abertas
-
-```tmux
-: <C-b>+s
-```
-
-> Navegando entre as janelas
-
-```tmux
-
-```
-
-ou
-
-```tmux
-
-```
+Esse comando exibirar uma mensagem que espera uma confirmação para fechar a tela. 
 
 > Maximizando um janela, dando um zoom na tela, transformando de visão multipla para visão única.
 
