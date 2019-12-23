@@ -1,8 +1,5 @@
 # Estudo sobe a ferramenta TMUX - Interação com as Janelas.
 
----
-
-
 ### Comandos de Tela ou Window
 
 > Criando um sessão nomeada:

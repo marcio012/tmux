@@ -3,7 +3,6 @@
 ## Tmux 
 [github](https://github.com/tmux)
 
----
 
 > Acesso a documentação
 
