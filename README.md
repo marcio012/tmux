@@ -1,8 +1,6 @@
 # Estudo sobe a ferramenta TMUX - Terminal Multiplex.
 
-## Tmux 
-[github](https://github.com/tmux)
-
+## Tmux [github](https://github.com/tmux)
 
 > Acesso a documentação
 

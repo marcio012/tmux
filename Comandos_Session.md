@@ -1,8 +1,4 @@
-# Estudo sobe a ferramenta TMUX - Interação com as Janelas.
-
----
-
-### Commandos Sessões
+# Estudo sobe a ferramenta TMUX - Interação com as Sessões.
 
 > Criar um sessão:
 
