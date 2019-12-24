@@ -22,11 +22,14 @@ $ <C-b> : 'novo comando'
 ### Lista de comandos do tmux:
  
 ```
-$ <C-b> !
+$ <C-b>!
 ```
 
-> Obs: O comando digitado a cima é o default do tmux, manterei esse padrão.
+> Obs: O comando digitado a cima é o default do tmux, manterei esse padrão, e usarei o nome *Prefix* para indicar o uso das teclas.
 
+```tmux
+<Prefix>'combo_de_teclas'
+```
 
 ## Sumário: 
 

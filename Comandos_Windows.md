@@ -14,50 +14,50 @@ Passando a flag **"-n"** no comando identifica que está nomeando a sessão.
 Dentro do tmux você pode definir um nome passando o comando.
 
 ```tmux
-: <C-b>,
+: <Prefix>+,
 ```
 
 **Movendo entre as janelas:**
 
 Para próxima janela: 
 ```tmux
-: <C-b>n
+: <Prefix>+n
 ```
 
 Para janela anterior: 
 ```tmux
-: <C-b>p
+: <Prefix>+p
 ```
 Por padrão cada janela tem um index gerado pelo tmux, isso permite navegar por esse index.
 ```tmux
-: <C-b>0
+: <Prefix>+0
 ```
-Se houver mais de nove janelas pode se fazer uso do ```<C-b>w```.
+Se houver mais de nove janelas pode se fazer uso do ```<Prefix>+w```.
 
-Para buscar um janela pode se fazer uso do ```<C-b>f```, ele aceita uma string como parametro. 
+Para buscar um janela pode se fazer uso do ```<Prefix>+f```, ele aceita uma string como parametro. 
 
 Para fechar uma janela pode usar o comando.
 
 ```tmux
-: <C-b>&
+: <Prefix>+&
 ```
 Esse comando exibirar uma mensagem que espera uma confirmação para fechar a tela. 
 
 > Maximizando um janela, dando um zoom na tela, transformando de visão multipla para visão única.
 
 ```tmux
-: <C-b>+z
+: <Prefix>+z
 ```
 
 > Adicionar um nova janela
 
 ```tmux
-: <C-b>+c
+: <Prefix>+c
 ```
 
 > Navegar entre as janelas
 
 ```tmux
-: <C-b> <numero_da_janela>
+: <Prefix>+<numero_da_janela>
 ```
 

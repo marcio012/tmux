@@ -67,28 +67,27 @@ $ tmux attach -t "nome-da-sessão"
 **Desconectar um sessão**
 
 ```tmux
-: <C-b>+d
+: <Prefix>+d
 ```
 
 **Navegando entre as sessões**
 
 ```tmux
-: <C-b>+(
+: <Prefix>+(
 ```
 
 ou
 
 ```tmux
-: <C-b>+)
+: <Prefix>+)
 ```
 
 **Fechar a janela da sessão**
 
 ```tmux
-: <C-b>+x
+: <Prefix>+x
 ```
 
 ```tmux
 : exit
 ```
-

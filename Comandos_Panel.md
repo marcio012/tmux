@@ -6,34 +6,34 @@ As Sessões são compostas por *"n"* Janelas, e as janelas são compostas e *"n"
 **Dividir a tela na vertical:**
 
 ```tmux
-: <C-b>shift% 
+: <Prefix>+shift+% 
 ```
 
 **Dividir a tela na horizontal**
 
 ```tmux
-: <C-b>"
+: <Prefix>+"
 ```
 
 **Navegação entre telas || windows || janelas.**
 
 ```tmux
-: <C-b>'seta_a_esquerda'
-: <C-b>'seta_a_direita'
-: <C-b>'seta_cima'
-: <C-b>'seta_baixo'
+: <Prefix>+'seta_a_esquerda'
+: <Prefix>+'seta_a_direita'
+: <Prefix>+'seta_cima'
+: <Prefix>+'seta_baixo'
 ```
 
 **Rotacionar as telas**
 
 ```tmux
-: <C-b><C-o>
+: <Prefix>+<C-o>
 ```
 
 **Maximizando um painel, transformando de visão multipla para visão única.**
 
 ```tmux
-: <C-b>+z
+: <Prefix>+z
 ```
 
 **Layouts dos Paineis**
@@ -45,7 +45,7 @@ Pode se configurar os paineis para quando o tmux iniciar, ele carregar um config
 * *main-horizontal*, cria um painel superior maior, e dois paineis inferiores menores.
 * *main-vertical*, cria um painel grande do lado esquerdo da tela e emplilha os restantes dos paineis verticalmente a direita.
 
-Pode percorre esse paineis usando o comando ```<C-b>barra-de-espaço```
+Pode percorre esse paineis usando o comando ```<Prefix>+barra-de-espaço```
 
-Pode se encerra todo processo no painel como também no tmux digitando ```<C-b>x```
+Pode se encerra todo processo no painel como também no tmux digitando ```<Prefix>+x```
 
